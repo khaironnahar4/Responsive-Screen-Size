@@ -1,0 +1,95 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .ex-lg, .lg, .lap, .tab, .sml, h1{
+        display: none;
+    }
+    .ex-lg, .lg, .lap, .tab, .sml, h3 {
+        display: none;
+    }
+
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .ex-lg, .lg, .lap, .tab, .ex-sml h1{
+        display: none;
+    }
+    .ex-lg, .lg, .lap, .tab, .ex-sml h3 {
+        display: none;
+    }
+    .banner-text h1 {
+        font-size: 30px;
+    }
+    .banner-text h3 {
+        font-size: 13px;
+    }
+
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .ex-lg, .lg, .lap, .sml, .ex-sml h1{
+        display: none;
+    }
+    .ex-lg, .lg, .lap, .sml, .ex-sml h3 {
+        display: none;
+    }
+    .banner-text h1 {
+        font-size: 40px;
+    }
+    .banner-text h3 {
+        font-size: 18px;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .ex-lg, .lg, .tab, .sml, .ex-sml h1{
+        display: none;
+    }
+    .ex-lg, .lg, .tab, .sml, .ex-sml h3 {
+        display: none;
+    }
+    .banner-text h3 {
+        font-size: 22px;
+    }
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .ex-lg, .lap, .tab, .sml, .ex-sml h1{
+        display: none;
+    }
+    .ex-lg, .lap, .tab, .sml, .ex-sml h3 {
+        display: none;
+    }
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    .banner-text h3 {
+        font-size: 25px;
+    }
+
+}
+
+/* // Extra Extra large devices (extra large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    .lg, .lap, .tab, .sml, .ex-sml h1{
+        display: none;
+    }
+    .lg, .lap, .tab, .sml, .ex-sml h3 {
+        display: none;
+    }
+    .container h1 {
+        font-size: 40px;
+    }
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    .banner-text h3 {
+        font-size: 40px;
+    }
+
+}
